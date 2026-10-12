@@ -1,0 +1,230 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookNest | Read Beyond</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="topbar">
+
+        <div class="brand">
+            <span>BN</span>
+            BookNest
+        </div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#discover">Discover</a>
+            <a href="#books">Books</a>
+            <a href="#offers">Offers</a>
+        </nav>
+
+        <button class="bag-btn" id="bagBtn">
+            Bag <b id="bagCount">0</b>
+        </button>
+
+    </header>
+
+
+    <main>
+
+        <!-- HERO SECTION -->
+        <section class="hero" id="home">
+
+            <div class="hero-copy">
+
+                <p class="eyebrow">
+                    A little place for big ideas
+                </p>
+
+                <h1>
+                    Find a story that feels like <em>yours.</em>
+                </h1>
+
+                <p class="hero-text">
+                    Explore hand-picked books for curious minds,
+                    late-night readers and people who simply love
+                    turning pages.
+                </p>
+
+                <div class="hero-actions">
+
+                    <a class="primary" href="#books">
+                        Explore collection
+                    </a>
+
+                    <button class="text-btn" id="surpriseBtn">
+                        Surprise me ↗
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-card">
+
+                <div class="book-cover">
+
+                    <small>BOOKNEST EDITION</small>
+
+                    <strong>
+                        THE<br>
+                        QUIET<br>
+                        ADVENTURE
+                    </strong>
+
+                    <span>
+                        Stories for curious minds
+                    </span>
+
+                </div>
+
+                <div class="floating-note">
+                    Editor's pick<br>
+                    <b>4.9 ★</b>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- DISCOVER -->
+        <section class="discover" id="discover">
+
+            <div>
+
+                <p class="eyebrow">
+                    Browse your mood
+                </p>
+
+                <h2>
+                    What are you reading today?
+                </h2>
+
+            </div>
+
+
+            <div class="moods">
+
+                <button data-filter="all" class="active">
+                    All
+                </button>
+
+                <button data-filter="tech">
+                    Tech
+                </button>
+
+                <button data-filter="story">
+                    Stories
+                </button>
+
+                <button data-filter="business">
+                    Business
+                </button>
+
+                <button data-filter="study">
+                    Study
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- BOOKS -->
+        <section class="books-section" id="books">
+
+            <div class="section-head">
+
+                <div>
+
+                    <p class="eyebrow">
+                        Fresh on the shelf
+                    </p>
+
+                    <h2>
+                        Popular this week
+                    </h2>
+
+                </div>
+
+                <span id="resultText">
+                    6 books
+                </span>
+
+            </div>
+
+
+            <div class="book-grid" id="bookGrid">
+            </div>
+
+        </section>
+
+
+        <!-- OFFER -->
+        <section class="offer" id="offers">
+
+            <div>
+
+                <p class="eyebrow">
+                    Weekend reading ritual
+                </p>
+
+                <h2>
+                    Buy 2 books and unlock 15% off.
+                </h2>
+
+                <p>
+                    No complicated membership.
+                    Just good books and a better excuse to read.
+                </p>
+
+            </div>
+
+            <button class="primary" id="offerBtn">
+                View offer
+            </button>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div>
+
+            <strong>
+                BookNest
+            </strong>
+
+            <p>
+                Read beyond the obvious.
+            </p>
+
+        </div>
+
+        <p>
+            © 2026 BookNest. Made for readers.
+        </p>
+
+    </footer>
+
+
+    <div class="toast" id="toast"></div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+```
