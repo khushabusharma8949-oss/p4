@@ -1,4 +1,3 @@
-```javascript
 const books = [
 
     {
@@ -257,4 +256,4 @@ document
 
 
 showBooks();
-```
+
